@@ -19,6 +19,8 @@ I am creating a project on door sensor. So basically the working principle of th
 
 # Applications
 1.Arduino based Automatic Door Opener System is a very useful project as it enables you to understand the concept of such automatic door opener systems and how they work.
+
 2.These systems are already being used in many places like malls, theatres and hospitals.
+
 3.You can implement this Arduino based project at you home in Garage Door Openers, toilet cover openers, Office door openers, etc.  
 
