@@ -5,6 +5,8 @@ A fingerprint is a group of information that can be used to detect the software,
 # MAIN PURPOSE:
 
 The main feature or specialty of fingerprint is that it is unique. It gives this project the high level security than other security systems.To operate this project first we have to enter data into the database of finger print sensor, for this we have to take impressions of fingerprints of those person whom we want to give access to our security system. This can be done once or whenever a new entry has to be added in the system. 
+![Hardware Circuit](https://user-images.githubusercontent.com/71927150/157081615-35c42117-f713-4e75-a2c7-dc4ae4f96872.jpg)
+
 
 # OBJECTIVE:
 
