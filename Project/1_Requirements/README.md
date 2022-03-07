@@ -63,3 +63,5 @@ Fingerprint scanners work by capturing the pattern of ridges and valleys on a fi
 | HLR6\_LLR1 | SimulIDE LCD and LED |
 
 # SWOT ANALYSIS:
+![SWOT Analysis](https://user-images.githubusercontent.com/71927150/157082040-ccc2d6e7-6c23-48c2-b5ac-1f994025a037.png)
+
