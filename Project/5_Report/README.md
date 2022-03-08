@@ -7,12 +7,16 @@ A fingerprint is a group of information that can be used to detect the software,
 # MAIN PURPOSE:
 
 The main feature or specialty of fingerprint is that it is unique. It gives this project the high level security than other security systems.To operate this project first we have to enter data into the database of finger print sensor, for this we have to take impressions of fingerprints of those person whom we want to give access to our security system. This can be done once or whenever a new entry has to be added in the system. 
+![Hardware Circuit](https://user-images.githubusercontent.com/71927150/157190534-b719531b-4127-47b1-afc7-7859154f80ea.jpg)
+
 
 # OBJECTIVE:
 
 The objective of this project is to construct a device that utilizes fingerprint recognition technology to allow access. It contains all neccessary  electronics to allow you to store, delete and verify fingerprints with just touch of the button.For this purpose we here use a Atmega 32 microcontroller circuit.
 
 # SWOT ANALYSIS:
+![SWOT Analysis](https://user-images.githubusercontent.com/71927150/157190563-10ae3f0a-efb5-42d9-a053-6aa7d71da92c.png)
+
 
 # 4-W:
 
@@ -79,22 +83,27 @@ Fingerprint scanners work by capturing the pattern of ridges and valleys on a fi
 # LOW LEVEL DIAGRAM:
 
 # STRUCTURAL LOW LEVEL DIAGRAM:
+![Structural LLD](https://user-images.githubusercontent.com/71927150/157190619-a2ba842e-79b2-476e-83cf-f311f204a1fa.png)
+
 
 
 
 # BEHAVIORAL LOW LEVEL DIAGRAM:
+![Behavioural LLD](https://user-images.githubusercontent.com/71927150/157190646-8c0b8e82-9b80-4bd8-ae78-e3ca7093fbe3.png)
 
 
 
 # HIGH LEVEL DIAGRAM:
 
 # STRUCTURAL HIGH LEVEL DIAGRAM:
+![High LLD](https://user-images.githubusercontent.com/71927150/157190682-e971c4b6-63cf-4516-83de-93955db0ea18.jpg)
 
 
-# BEHAVIORAL HIGH LEVEL DIAGRAM:
+
 
 
 # BLOCK DIAGRAM:
+![Block Diagram](https://user-images.githubusercontent.com/71927150/157190707-4d8d2f58-a411-4d3c-b0bc-9a5f7b2344e8.png)
 
 ## TEST PLAN AND OUTPUT #
 
