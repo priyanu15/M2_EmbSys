@@ -105,14 +105,14 @@ void setup(void) {
 void loop() {
 
   fingerprintID = getFingerprintID();
-  delay(50);
+  delay(25);
   if(fingerprintID == 1)
   {
     display.drawBitmap(30,35,icon,60,60,GREEN);
-    delay(2000);
+    delay(1500);
     displayUnlockedScreen();
     displayIoanna();
-    delay(5000);
+    delay(4000);
     display.fillScreen(BLACK);
     displayLockScreen();
   }
@@ -120,10 +120,10 @@ void loop() {
    if(fingerprintID == 2)
   {
     display.drawBitmap(30,35,icon,60,60,GREEN);
-    delay(2000);
+    delay(1500);
     displayUnlockedScreen();
     displayNick();
-    delay(5000);
+    delay(4000);
     display.fillScreen(BLACK);
     displayLockScreen();
   }
@@ -136,19 +136,19 @@ void displayUnlockedScreen()
    display.drawRect(0,0,128,128,WHITE);
    display.setCursor(18,10);
    display.setTextColor(GREEN); 
-   display.setTextSize(2);
+   display.setTextSize(4);
    display.print("UNLOCKED");
 
    display.setCursor(20,50);
    display.setTextColor(WHITE); 
-   display.setTextSize(2);
+   display.setTextSize(4);
    display.print("WELCOME");
 }
 void displayNick()
 {
   display.setCursor(35,75);
   display.setTextColor(WHITE); 
-  display.setTextSize(2);
+  display.setTextSize(4);
   display.print("NICK!");
 }
 
@@ -156,7 +156,7 @@ void displayIoanna()
 {
   display.setCursor(25,75);
   display.setTextColor(WHITE); 
-  display.setTextSize(2);
+  display.setTextSize(4);
   display.print("IOANNA!");
 }
 
@@ -165,12 +165,12 @@ void displayLockScreen()
   display.drawRect(0,0,128,128,WHITE);
   display.setCursor(30,10);
   display.setTextColor(RED); 
-  display.setTextSize(2);
+  display.setTextSize(4);
   display.print("LOCKED");
 
   display.setCursor(10,100);
   display.setTextColor(WHITE); 
-  display.setTextSize(1);
+  display.setTextSize(2);
   display.print("Waiting for valid \n    fingerprint.");
 
   display.drawBitmap(30,35,icon,60,60,WHITE);
